@@ -52,8 +52,8 @@
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;entered number is:&quot; + num.tostring]" />
-    <sads:DebugSymbol.Symbol>d0ZDOlxVc2Vyc1xLQTAwNzk2NjQxXERlc2t0b3BcQ2xpZW50IFdGXFJCQ1xkZW1vLWdpdC11cGdyYWRlXHJlc3VsdC54YW1sAzYDOQ4CAQE3BTd3AgECN0M3dAIBAw==</sads:DebugSymbol.Symbol>
+    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;entered number:&quot; + num.tostring]" />
+    <sads:DebugSymbol.Symbol>d0ZDOlxVc2Vyc1xLQTAwNzk2NjQxXERlc2t0b3BcQ2xpZW50IFdGXFJCQ1xkZW1vLWdpdC11cGdyYWRlXHJlc3VsdC54YW1sAzYDOQ4CAQE3BTd0AgECN0M3cQIBAw==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
