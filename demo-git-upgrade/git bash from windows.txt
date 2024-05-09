@@ -1,0 +1,121 @@
+https://github.com/aishwaryakanthi/UNO.git
+
+
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade (master)
+$ git clone https://github.com/aishwaryakanthi/UNO.git
+Cloning into 'UNO'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade (master)
+$ ls
+Main.xaml  mod-operationoddeven.xaml  result.xaml  UNO/
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade (master)
+$ cd UNO/
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ LS
+Main.xaml  mod-operationoddeven.xaml  result.xaml
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Main.xaml
+        mod-operationoddeven.xaml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git commit - m "commit through git win-aish"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'commit through git win-aish' did not match any file(s) known to git
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git commit -m "commit through git win-aish"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Main.xaml
+        mod-operationoddeven.xaml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Main.xaml
+        mod-operationoddeven.xaml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git add -A
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Main.xaml
+        new file:   mod-operationoddeven.xaml
+
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git commit -m "commit through git win-aish"
+[main c5bfb65] commit through git win-aish
+ Committer: Kanthi Aishwarya <KA00796641@techmahindra.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 170 insertions(+)
+ create mode 100644 Main.xaml
+ create mode 100644 mod-operationoddeven.xaml
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.05 KiB | 699.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/aishwaryakanthi/UNO.git
+   60384d6..c5bfb65  main -> main
+
+KA00796641@INBASDPC05417 MINGW64 ~/Desktop/Client WF/RBC/demo-git-upgrade/UNO (main)
+$
